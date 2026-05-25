@@ -1,0 +1,22 @@
+# 基础数据处理与绘图
+numpy
+pandas
+matplotlib
+tqdm
+scikit-learn
+
+# 核心机器学习模型（支持 GPU）
+# XGBoost 2.0+ 默认支持 CUDA
+xgboost>=2.0.0
+# CatBoost 默认支持 GPU (通过 task_type='GPU' 调用)
+catboost
+# LightGBM GPU 版本在某些系统下需单独编译，这里提供标准版
+# 如果在训练时提示无 GPU，请参考下方说明重新安装
+lightgbm
+
+# 可解释性分析与性能检测
+shap
+nvidia-ml-py3
+
+# 其他辅助
+importlib-metadata
